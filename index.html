@@ -56,7 +56,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 
 /* ── HERO ── */
 #hero{position:relative;min-height:92vh;background:var(–ink);display:flex;align-items:center;justify-content:center;overflow:hidden;}
-.hero-bg-img{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.35;transform-origin:center center;}
+.hero-bg-img{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.65;transform-origin:center center;}
 .hero-grid-overlay{position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(201,146,42,.04) 60px,rgba(201,146,42,.04) 61px),repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(201,146,42,.04) 60px,rgba(201,146,42,.04) 61px);}
 .hero-vert-left{position:absolute;left:3rem;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;text-orientation:mixed;font-family:‘Noto Serif TC’,serif;font-size:6.5rem;font-weight:700;color:rgba(155,27,27,.22);letter-spacing:.25em;pointer-events:none;user-select:none;}
 .hero-vert-right{position:absolute;right:3rem;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:‘Cormorant Garamond’,serif;font-style:italic;font-size:.85rem;color:rgba(201,146,42,.35);letter-spacing:.4em;pointer-events:none;user-select:none;}
@@ -142,7 +142,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .product-name-en{font-family:‘Cormorant Garamond’,serif;font-size:.85rem;color:var(–warm-gray);font-style:italic;margin-bottom:.7rem;}
 .product-desc-cn{font-size:.73rem;line-height:1.9;color:var(–ink-soft);font-family:‘Noto Serif TC’,serif;margin-bottom:.4rem;}
 .product-desc-en{font-size:.72rem;line-height:1.8;color:#9A8570;font-family:‘Cormorant Garamond’,serif;font-style:italic;margin-bottom:.9rem;}
-.product-footer{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;border-top:1px solid var(–border-red);}
+.product-.product-footer{display:flex;align-items:center;justify-content:space-between;padding-top:.9rem;border-top:1px solid var(–border-red);}
 .product-price{font-family:‘Cormorant Garamond’,serif;font-size:1.1rem;color:var(–red);font-weight:600;}
 .product-price small{font-size:.7rem;color:var(–warm-gray);font-weight:400}
 .add-to-cart{background:var(–red);color:#fff;padding:.38rem .9rem;font-size:.68rem;letter-spacing:.1em;font-family:‘Noto Sans TC’,sans-serif;transition:background .2s;}
@@ -229,7 +229,7 @@ footer{background:var(–ink);border-top:2px solid rgba(201,146,42,.2);padding:3
 .cart-item-price{font-family:‘Cormorant Garamond’,serif;color:var(–red);font-size:.9rem;}
 .cart-item-remove{color:var(–warm-gray);transition:color .2s;font-size:.9rem;}
 .cart-item-remove:hover{color:var(–red)}
-.cart-footer{padding:1.2rem 1.5rem;border-top:1px solid var(–border-red);background:var(–paper);flex-shrink:0;}
+.cart-.cart-footer{padding:1.2rem 1.5rem;border-top:1px solid var(–border-red);background:var(–paper);flex-shrink:0;}
 .cart-total{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;font-family:‘Noto Serif TC’,serif;font-size:.9rem;color:var(–ink);}
 .cart-total strong{font-family:‘Cormorant Garamond’,serif;font-size:1.2rem;color:var(–red);}
 .checkout-btn{width:100%;background:var(–red);color:#fff;padding:.9rem;font-family:‘Noto Serif TC’,serif;font-size:.85rem;letter-spacing:.15em;transition:background .2s;margin-bottom:.5rem;}
@@ -244,7 +244,7 @@ footer{background:var(–ink);border-top:2px solid rgba(201,146,42,.2);padding:3
 .products-grid{grid-template-columns:1fr 1fr}
 .contact-grid{grid-template-columns:1fr}
 .shop-steps-grid{grid-template-columns:1fr 1fr}
-.footer-inner{grid-template-columns:1fr 1fr;gap:2rem}
+..footer-inner{grid-template-columns:1fr 1fr;gap:2rem}
 #cart-drawer{width:100%;right:-100%}
 .nav-links a small{display:none}
 }
@@ -255,7 +255,7 @@ footer{background:var(–ink);border-top:2px solid rgba(201,146,42,.2);padding:3
 .hero-vert-left{font-size:4rem;left:1rem}
 .hero-vert-right{display:none}
 .nav-links a{padding:0 .5rem}
-.footer-inner{grid-template-columns:1fr}
+..footer-inner{grid-template-columns:1fr}
 .mshop-cta-box{flex-direction:column}
 .hero-cta{flex-direction:column;align-items:center}
 }
